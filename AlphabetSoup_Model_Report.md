@@ -39,6 +39,7 @@ The purpose of this analysis is to create a binary classifier using machine lear
     - **Third Layer:** 10 neurons, ReLU activation function
     - **Output Layer:** 1 neuron, Sigmoid activation function
   - ReLU is a popular choice for activation functions in deep learning models.  It adds non-linear functionality to the model.  As the model is a series of layers adding a non-linear function like ReLU to this type of data assists in enabling the training of more complex relationships in the data. The Sigmoid activation function is a common choice for the output layer, and is advantageous to the binary classificaiton nature of our data, and its superior interpretation of probability.
+![](Images/Total_Model_Paramameters.png)
 
 - **Model Performance:**
   - The final model achieved an accuracy of approximately **73.2%** on the test data, which is below the target accuracy of 75%.
