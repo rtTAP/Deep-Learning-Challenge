@@ -30,6 +30,8 @@ The purpose of this analysis is to create a binary classifier using machine lear
 
 - **Model Performance:**
   - The final model achieved an accuracy of approximately **73.4%** on the test data, which is below the target accuracy of 75%.
+!Model
+
 
 - **Steps to Increase Model Performance:**
   - Various approaches were used to optimize the model, including:
