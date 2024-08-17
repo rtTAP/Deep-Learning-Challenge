@@ -45,9 +45,9 @@ The purpose of this analysis is to create a binary classifier using machine lear
     - Tuning the number of neurons and layers
       - I did not find that adding more than 3 layers was anymore beneficial
     - Experimenting with different activation functions
-      - Adding the `Tanh`activation funciton to one of 3 layers had little to no effect on model accuracy or loss
+      - Adding the `Tanh`activation function to one of 3 layers had little to no effect on model accuracy or loss
     - Adjusting the number of epochs for training
-      - Increasing the number of epochs had an affect when I increase the `.value_counts` number of the loan `CLASSIFICATIONS` to `<+70` per `CLASSIFICATION`
+      - Increasing the number of epochs had an affect when I increase the `.value_counts` number of the loan `CLASSIFICATIONS` to `<=70` per `CLASSIFICATION`
   - Despite these efforts, the accuracy remained slightly below the target
 
 ## Summary
