@@ -28,16 +28,16 @@ The purpose of this analysis is to create a binary classifier using machine lear
   - `APPLICATION_TYPE` was identifed as a column were "rare" categorical variables could be combined to form a new value `Other`.
 ![](Images/Application_Type_Feature.png)
   - `CLASSIFICATION`was another column were "rare" categorical variables where identified and combined to form a new value `Other`
-![]
+![](Images/Loan_Type_Classification.png)
  
 ### Compiling, Training, and Evaluating the Model
 
 - **Neurons, Layers, and Activation Functions:**
   - The neural network was designed with several layers:
-    - **First Layer:** 80 neurons, ReLU activation function.
-    - **Second Layer:** 20 neurons, ReLU activation function.
-    - **Third Layer:** 10 neurons, ReLU activation function.
-    - **Output Layer:** 1 neuron, Sigmoid activation function.
+    - **First Layer:** 80 neurons, ReLU activation function
+    - **Second Layer:** 20 neurons, ReLU activation function
+    - **Third Layer:** 10 neurons, ReLU activation function
+    - **Output Layer:** 1 neuron, Sigmoid activation function
   - ReLU is a popular choice for activation functions in deep learning models.  It adds non-linear functionality to the model.  As the model is a series of layers adding a non-linear function like ReLU to this type of data assists in enabling the training of more complex relationships in the data. The Sigmoid activation function is a common choice for the output layer, and is advantageous to the binary classificaiton nature of our data, and its superior interpretation of probability.
 
 - **Model Performance:**
