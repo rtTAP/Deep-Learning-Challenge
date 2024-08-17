@@ -13,7 +13,7 @@ The purpose of this analysis is to create a binary classifier using machine lear
   - Column `IS_SUCCESSFUL` -  which indicates if an applicant received funding
 
 - **Features:**
-- Columns included as featrues for the data set 
+  Columns included as featrues for the data set 
   - `APPLICATION_TYPE`
   - `AFFILIATION`
   - `CLASSIFICATION`
