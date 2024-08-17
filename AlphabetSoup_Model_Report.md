@@ -27,7 +27,9 @@ The purpose of this analysis is to create a binary classifier using machine lear
   - Columns that do not contribute to the predictive model or are redundant are removed. These included unique identifiers such as `EIN` and `NAME`.  The `INCOME_AMT` column was removed to optimise the model, and was considered redundant to the success of applicant ventures.
   - `APPLICATION_TYPE` was identifed as a column were "rare" categorical variables could be combined to form a new value `Other`.
 ![](Images/Application_Type_Feature.png)
-
+  - `CLASSIFICATION`was another column were "rare" categorical variables where identified and combined to form a new value `Other`
+![]
+ 
 ### Compiling, Training, and Evaluating the Model
 
 - **Neurons, Layers, and Activation Functions:**
