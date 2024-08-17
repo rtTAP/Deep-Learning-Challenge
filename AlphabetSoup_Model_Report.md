@@ -13,10 +13,10 @@ The purpose of this analysis is to create a binary classifier using machine lear
   - The target variable for the model is the `IS_SUCCESSFUL` column, which indicates if an applicant received funding.
 
 - **Features:**
-  - The features selected for the model include all columns except for `IS_SUCCESSFUL` and `INCOME_AMT`. The features represent various characteristics of the funding applications, such as the amount requested, the application type, a use case and other company features..
+  - The features selected for the model include all columns except for `IS_SUCCESSFUL` and `INCOME_AMT`. The features represent various characteristics of the funding applications, such as the amount requested, the application type, a use case and other company features. 
 
 - **Removed Variables:**
-  - Columns that do not contribute to the predictive model or are redundant are removed. These included unique identifiers such as `EIN` and `NAME`.  The current `INCOME_AMT` column was removed to optimise the model, and was considered redundant to the success of applicant ventures.
+  - Columns that do not contribute to the predictive model or are redundant are removed. These included unique identifiers such as `EIN` and `NAME`.  The `INCOME_AMT` column was removed to optimise the model, and was considered redundant to the success of applicant ventures.
 
 ### Compiling, Training, and Evaluating the Model
 
@@ -30,7 +30,7 @@ The purpose of this analysis is to create a binary classifier using machine lear
 
 - **Model Performance:**
   - The final model achieved an accuracy of approximately **73.4%** on the test data, which is below the target accuracy of 75%.
-!Model
+![Screenshot of the Mocel Performance output]("C:\Users\tammy\OneDrive\Documents\GitHub\Deep-Learning-Challenge\Images\Model_Performance.jpeg")
 
 
 - **Steps to Increase Model Performance:**
