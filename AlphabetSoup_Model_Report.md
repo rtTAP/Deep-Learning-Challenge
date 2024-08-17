@@ -40,17 +40,19 @@ The purpose of this analysis is to create a binary classifier using machine lear
   - The final model achieved an accuracy of approximately **73.2%** on the test data, which is below the target accuracy of 75%.
 ![](https://github.com/rtTAP/Deep-Learning-Challenge/blob/main/Images/Model_Performance.jpeg)
 
-
 - **Steps to Increase Model Performance:**
   - Various approaches were used to optimize the model, including:
     - Tuning the number of neurons and layers
+      - I did not find that adding more than 3 layers was anymore beneficial
     - Experimenting with different activation functions
+      - Adding the `Tanh`activation funciton to one of 3 layers had little to no effect on model accuracy or loss
     - Adjusting the number of epochs for training
+      - Increasing the number of epochs had an affect when I increase the `.value_counts` number of the loan `CLASSIFICATIONS` to `<+70` per `CLASSIFICATION`
   - Despite these efforts, the accuracy remained slightly below the target
 
 ## Summary
 
-The deep learning model created for predicting the success of funding applications achieved an accuracy of 73.4%, which is close to, but below the desired threshold. A suggestion may be that, while the model captures some underlying patterns in the data, it may not be fully optimised.
+The deep learning model created for predicting the success of funding applications achieved an accuracy of 73.2%, which is close to, but below the desired threshold. A suggestion may be that, while the model captures some underlying patterns in the data, it may not be fully optimised.
 
 **Recommendation:**
-To improve the classification performance, it may be beneficial to explore alternative machine learning models such as Random Forests, Gradient Boosting Machines, or Support Vector Machines. These models might be able to capture complex patterns in the data that the current deep learning model has not. Additionally, further feature engineering, hyperparameter tuning, or the use of more sophisticated neural network architectures (like deep or wide networks) could also be explored to improve the model's accuracy.
+To improve performance, it may be beneficial to explore alternative machine learning models such as Random Forests, Gradient Boosting Machines, or Support Vector Machines. Using these models may be able to capture the complex patterns in the data that the current deep learning model has not. Additionally, further feature engineering, hyperparameter tuning, or the use of more sophisticated neural network architectures could also be explored to improve the model's accuracy.
